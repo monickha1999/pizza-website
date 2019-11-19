@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf=8">
+<title>Pizza delivery</title>
+<style type="text/css" media="all">
+span{
+width: 175px;
+display:block;
+float:left;
+}
+input{
+float:left;
+}
+p{
+padding-top:10px;
+clear:all;
+}
+p{
+padding-top:20px;
+clear:all;
+}
+label{
+padding-right:20px;
+}
+</style>
+</head>
+
+</textarea></head>
+<body>
+
+<h1>PIZZA DELIVARY</h1>
+<form method="POST" action="step2.html">
+<p>
+<label>Customer name:<input type="text" id="CustomerName" name="CustomerName" maxlength="12"></label>
+</p>
+<fieldset>
+<legend>Pizza Size</legend>
+<p><label><input type="radio" name="size" value="small">Small(10 inch)</label></p>
+<p><label><input type="radio" name="size" value="medium">Medium(12 inch)</label></p>
+<p><label><input type="radio" name="size" value="small">Large(14 inch)</label></p>
+</fieldset>
+<fieldset>
+<legend>Pizza Toppings</legend>
+<p><label><input type="checkbox" name="toppings" value="bacon">Bacon</label></p>
+<p><label><input type="checkbox" name="toppings" value="cheese">Extra Cheese</label></p>
+<p><label><input type="checkbox" name="toppings" value="onion">Onion</label></p>
+<p><label><input type="checkbox" name="toppings" value="mushroom">Mushroom</label></p>
+</fieldset>
+<p>Crust
+<select name="crust">
+<option value="c1">Normal</option>
+<option value="c2">Chicago Deep Fish</option>
+<option value="c3">New York Thin</option>
+</select>
+<p><label>Delivery Instructions:
+<textarea name="comments" cols="100" rows="5" maxlength="2000">
+</textarea>
+
+
+</p>
+<p>
+<input type="submit" value="continue to next page"></p>
+<p><input type="reset" value="Reset Values"></p> 
+</form>
+
+</body>
+</html>
